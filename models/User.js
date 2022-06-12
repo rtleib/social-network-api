@@ -18,6 +18,9 @@ const UserSchema = new Schema({
       "Please enter a valid email address",
     ],
   },
+
+  thoughts: {
+  },
   
 });
 
