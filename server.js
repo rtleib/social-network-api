@@ -8,6 +8,7 @@ const { Note } = require('./models');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static('public'));
 
 db.once('open', () => {
   app.listen(PORT, () => {
